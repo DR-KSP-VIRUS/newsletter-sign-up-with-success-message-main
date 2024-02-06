@@ -36,8 +36,8 @@ Users should be able to:
 ![Success Solution](./design/success-solution.jpeg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/DR-KSP-VIRUS/newsletter-sign-up-with-success-message-main.git)
+- Live Site URL: [Add live site URL here](https://newsletter-sign-up-with-success-message-main-sable.vercel.app/)
 
 ## My process
 
@@ -55,5 +55,5 @@ The following site helped me to learn about constructing and validating test of 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Live site here](https://newsletter-sign-up-with-success-message-main-sable.vercel.app/)
 - Frontend Mentor - [@DR-KSP-VIRUS](https://www.frontendmentor.io/profile/DR-KSP-VIRUS)
