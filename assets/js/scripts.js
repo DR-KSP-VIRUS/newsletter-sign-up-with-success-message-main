@@ -8,11 +8,11 @@ const result = document.getElementById("result");
 btn.addEventListener("click", () => {
     const email = document.getElementById("id_email");
     const errorText = document.getElementById("error_text");
-    if(email.value && !`${email.value}`.includes("@")){
+    if(!isValidEmail(email.value)){
         email.classList.add("error");
         errorText.classList.add('error-text');
         errorText.innerText =`Valid email required`;
-    }else if(`${email.value}`.includes("@")){
+    }else{
         email.classList.remove("error");
         errorText.classList.remove('error-text');
         errorText.innerText =``;
@@ -27,7 +27,14 @@ btnClose.addEventListener("click", () => {
 })
 
 window.onclick = function(e){
+    /* close the popup*/
     if (e.target === results){
         results.style.display = "none";
     }
+}
+
+
+const isValidEmail = (str) => {
+    let partten = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+    return str.match(partten);
 }
